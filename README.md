@@ -7,6 +7,8 @@ cards, tilted floating cards, pill-shaped bar charts, slogan copy. This skill re
 habits: **fidelity** to the product's real brand, **study** of a real reference in a real browser,
 **specificity** (real content, licensed photos, real icons) and **restraint**.
 
+It works in any frontend stack (plain HTML and CSS, React, Vue, Svelte, Angular, Astro, server templates): it detects the project's stack, or asks which one to use before it builds anything.
+
 It was written from a live design session, where each rule came from a correction.
 
 ## What is inside
@@ -20,6 +22,7 @@ references/copywriting.md      plain-copy rules with before and after
 references/imagery-and-icons.md  licensed photos, credits, app-style icons
 references/qa-checklist.md     small-phone sweep, touch, accessibility, Lighthouse and release checks
 references/type-and-style.md   distinctive type and product-specific detail, without copying a reference
+references/stacks.md           detect or ask for the stack; how each pattern translates to other frameworks
 LICENSE                        MIT
 ```
 
@@ -42,7 +45,7 @@ design "looks AI", or ask to match a reference site.
 
 Ask for UI work as usual. The skill makes the assistant:
 
-1. read your brand tokens from the code and keep them exactly;
+1. find out your stack (or ask), then read your brand tokens from the code and keep them exactly;
 2. study the reference you name in a real browser and write an inventory before coding;
 3. plan sections that each show one real artifact;
 4. use real content, licensed photos with credits, and real app-style icons;

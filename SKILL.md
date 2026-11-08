@@ -1,6 +1,6 @@
 ---
 name: anti-ai-frontend-ui
-description: Build or redesign frontend UI so it does not look AI-generated. Use for any landing page, marketing site, dashboard, component or full-page design, and especially when the user says the UI "looks AI", "AI slop", "generic" or "template-like", wants to match a reference site, asks for a redesign, a polish pass, a responsive or UX pass, or says "make it perfect". Enforces keeping the brand tokens exactly, studying the reference in a real browser, real content, licensed photography, real app-style icons, plain human copy, restrained motion, flat sectioned cards, mobile and touch quality, and a verified QA pass. Apply it before writing any UI code and again before reporting the work done.
+description: Build or redesign frontend UI so it does not look AI-generated. Use for any landing page, marketing site, dashboard, component or full-page design, and especially when the user says the UI "looks AI", "AI slop", "generic" or "template-like", wants to match a reference site, asks for a redesign, a polish pass, a responsive or UX pass, or says "make it perfect". Works in any frontend stack (plain HTML, React, Vue, Svelte, Angular, Astro, server templates): it detects the stack or asks which one to use before building. Enforces keeping the brand tokens exactly, studying the reference in a real browser, real content, licensed photography, real app-style icons, plain human copy, restrained motion, flat sectioned cards, mobile and touch quality, and a verified QA pass. Apply it before writing any UI code and again before reporting the work done.
 ---
 
 # ANTI-AI FRONTEND UI
@@ -29,13 +29,15 @@ Read these before anything else. Each one comes from a real correction.
 6. **None of the AI tells** in `references/ai-tells.md`: no glowing-dot badge, no gradients or glows, no tilted or bobbing cards, no pill progress bars, no tinted icon chips, no identical card grids, no off-brand status pills.
 7. **Verify, then report.** Test every viewport (including the 320 to 430 px sweep with touch sizes forced), touch, keyboard, the console, a production build and Lighthouse (`references/qa-checklist.md`). Say what you did not verify.
 8. **Ask before downloading files.** State filename, source and size. Check each licence. Credit the authors.
-9. **A point of view in type and detail.** One neutral sans everywhere is itself a tell. Test many faces in a real browser, use a distinctive display face sparingly beside a quiet text face, and add hand-made, product-specific details (not a particular font, and never a reference's own lettering). See `references/type-and-style.md`.
+9. **Any stack, asked first.** The skill never assumes a framework. Detect or ask (`references/stacks.md`), then build in the project's own idiom; the design, tokens, markup and QA stay the same in every stack.
+10. **A point of view in type and detail.** One neutral sans everywhere is itself a tell. Test many faces in a real browser, use a distinctive display face sparingly beside a quiet text face, and add hand-made, product-specific details (not a particular font, and never a reference's own lettering). See `references/type-and-style.md`.
 
 ## Workflow
 
 Work through the phases in order. Do not skip Phase 1.
 
-### Phase 0: Brief and brand extraction
+### Phase 0: Brief, stack and brand extraction
+- **Stack first.** Detect it from the project (`package.json`, framework config, file extensions, how styles are written). If there is a project stack, use it and say so. If it is a new project or unclear, **ask which stack and styling approach before writing any code** (plain HTML/CSS/JS, React or Next.js, Vue or Nuxt, Svelte or SvelteKit, Angular, Astro, a server template, Tailwind or not). Never assume React, and never add a second framework to an existing project. See `references/stacks.md`.
 - Find the brand tokens in the code: colour variables, font families, the logo or mark, radius and spacing habits. Write them down in a small table and treat it as read-only.
 - Find the real facts the page may state (results docs, README, changelog). Copy numbers exactly; keep their caveats.
 - Find what must stay private (keys, internal URLs, unreleased names, customer data). Keep it out of public copy.
@@ -108,4 +110,5 @@ State facts: what was built, what was measured, what is still unverified. No sup
 - `references/copywriting.md`: plain-copy rules with before and after.
 - `references/imagery-and-icons.md`: sourcing licensed photos, credits, icons.
 - `references/qa-checklist.md`: responsive sweep, touch, accessibility, Lighthouse and release checks.
+- `references/stacks.md`: how to detect or ask for the stack, and how each pattern translates to plain JS, React, Vue, Svelte, Angular, Astro and server templates.
 - `references/type-and-style.md`: how to find distinctive type and product-specific details without copying a reference.

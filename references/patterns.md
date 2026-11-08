@@ -1,6 +1,8 @@
 # Patterns that replace the AI tells
 
-Brand-agnostic CSS and React. Names are prefixed `x-`; rename freely. Colours are variables; fill them from the
+Brand-agnostic and stack-agnostic. The CSS works as it is in any stack. The TSX snippets are one example of each
+behaviour, written in React; translate them to the project's own stack using `stacks.md` (the browser APIs underneath
+are the same in plain JS, Vue, Svelte, Angular and Astro). Names are prefixed `x-`; rename freely. Colours are variables; fill them from the
 product's real tokens, never from this file.
 
 ```css
