@@ -1,6 +1,7 @@
 # ANTI-AI FRONTEND UI
 
-An agent skill that helps an AI coding assistant build frontend UI that does not look AI-generated.
+An agent skill that helps an AI coding assistant build frontend UI that does not look AI-generated, on any page or
+route of any product: landing pages, app screens, dashboards, settings, sign-in, docs, error pages and components.
 
 Generated interfaces share a look: a glowing badge over the headline, gradient washes, rows of identical rounded
 cards, tilted floating cards, pill-shaped bar charts, slogan copy. This skill replaces those defaults with four

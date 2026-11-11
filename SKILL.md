@@ -1,6 +1,6 @@
 ---
 name: anti-ai-frontend-ui
-description: Build or redesign frontend UI so it does not look AI-generated. Use for any landing page, marketing site, dashboard, component or full-page design, and especially when the user says the UI "looks AI", "AI slop", "generic" or "template-like", wants to match a reference site, asks for a redesign, a polish pass, a responsive or UX pass, or says "make it perfect". Works in any frontend stack (plain HTML, React, Vue, Svelte, Angular, Astro, server templates): it detects the stack or asks which one to use before building. Enforces keeping the brand tokens exactly, studying the reference in a real browser, real content, licensed photography, real app-style icons, plain human copy, restrained motion, flat sectioned cards, mobile and touch quality, and a verified QA pass. Apply it before writing any UI code and again before reporting the work done.
+description: Build or redesign any frontend UI so it does not look AI-generated. Use for every page and route of a product, not only the home page: landing and marketing pages, signed-in app routes, dashboards, consoles, settings, sign-in and sign-up, docs, pricing, checkout, empty and error pages, embeddable widgets and single components, and especially when the user says the UI "looks AI", "AI slop", "generic" or "template-like", wants to match a reference site, asks for a redesign, a polish pass, a responsive or UX pass, or says "make it perfect". Works in any frontend stack (plain HTML, React, Vue, Svelte, Angular, Astro, server templates): it detects the stack or asks which one to use before building. Enforces keeping the brand tokens exactly, studying the reference in a real browser, real content, licensed photography, real app-style icons, plain human copy, restrained motion, flat sectioned cards, mobile and touch quality, and a verified QA pass. Apply it before writing any UI code and again before reporting the work done.
 ---
 
 # ANTI-AI FRONTEND UI
@@ -9,6 +9,10 @@ A UI looks AI-generated when it is assembled from the most common defaults and s
 the glowing badge above the headline, the gradient wash, the row of identical rounded cards, the tilted
 floating cards, the pill-shaped bar chart, the slogan with a comma in it. People notice within seconds, and
 once they do they stop trusting the product.
+
+The skill is general. It applies to every page and route in any product and any stack, from a marketing
+home page to a settings screen or a 404. The examples in the references come from real projects; take the rule,
+not the example's words or brand.
 
 The cure is not a style. It is four habits:
 
@@ -21,7 +25,7 @@ The cure is not a style. It is four habits:
 
 Read these before anything else. Each one comes from a real correction.
 
-1. **Brand tokens are law.** Read colours, fonts and the logo from the product's own code (design tokens, CSS variables, logo file). Never "improve", neutralise or swap them. If the reference site is grey and black and the brand is plum and magenta, the brand wins and only the layout is borrowed. Swapping a brand's dark plum for neutral black was called out immediately: "why did you change our brand color?"
+1. **Brand tokens are law.** Read colours, fonts and the logo from the product's own code (design tokens, CSS variables, logo file). Never "improve", neutralise or swap them. If the reference site is grey and black and the brand is a deep purple and pink, the brand wins and only the layout is borrowed. Swapping a brand's dark purple for neutral black was called out immediately: "why did you change our brand color?"
 2. **Study before you build.** Open the reference in a real browser, scroll it, measure it (see `references/study-a-reference.md`). Do not design from memory of what "that kind of site" looks like.
 3. **Do not copy a reference's text, images or artwork.** Borrow the section order, type scale, spacing, colour rhythm, card anatomy and motion timing. The words and pictures must be yours.
 4. **Everything on the page is real.** No invented testimonials, "trusted by" logos, statistics, customer counts or screenshots. If there is no real proof yet, leave that section out.
@@ -81,6 +85,7 @@ file and add it here, so the skill grows with every product.
 |---|---|
 | Landing pages and marketing sites | the Section recipes below and `references/patterns.md` |
 | Signed-in apps: dashboards, admin areas, developer consoles, support desks, embeddable widgets | `references/apps-and-dashboards.md` |
+| Every other route (sign-in, settings, docs, pricing, legal, 404 and error pages) | the Non-negotiables, `references/ai-tells.md`, `references/copywriting.md` and `references/qa-checklist.md`; app routes also follow `references/apps-and-dashboards.md` |
 
 After every project, also record the owner's corrections (what they rejected and why) in the matching reference,
 so the next build does not repeat them.

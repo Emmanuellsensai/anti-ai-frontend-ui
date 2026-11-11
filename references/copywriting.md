@@ -18,7 +18,7 @@ on the team would explain the product to a colleague: what it is, what it does, 
 
 ## One clear message
 
-A landing page says one thing, in the hero, in a sentence a customer would repeat ("Kola calls your customers so
+A landing page says one thing, in the hero, in a sentence a customer would repeat ("We call your customers so
 your team doesn't have to."). Every section after it supports that sentence: how it works, what it does, the hand-off,
 proof, how to start, questions. Integration details, API lists, stacks and long timelines go on a linked page. If a
 redesign brief says "keep all the information", keep it reachable, not all on the home page; ask if unsure.
@@ -26,8 +26,8 @@ redesign brief says "keep all the information", keep it reachable, not all on th
 ## Facts come from the source of truth, never from the old page
 
 Before stating what a product does (languages, integrations, prices, status), check the current source: the code
-that does it, the status doc, the owner. Old marketing pages go stale; copying their claims ("Igbo and Hausa coming
-soon" after both had shipped) puts a wrong statement on a new page. Use real lines from the product (its own script,
+that does it, the status doc, the owner. Old marketing pages go stale; copying their claims ("coming soon" on features
+that had already shipped) puts a wrong statement on a new page. Use real lines from the product (its own script,
 its own responses) instead of writing sample copy.
 
 ## Words and shapes to avoid

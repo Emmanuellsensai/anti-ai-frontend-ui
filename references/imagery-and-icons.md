@@ -1,6 +1,6 @@
 # Imagery and icons
 
-Real pictures and real icons are the second fastest way to move a page away from "generated". Salad-style
+Real pictures and real icons are the second fastest way to move a page away from "generated". Well-made studio
 sites use physical, textured photographs and recognisable product icons; thin line icons in tinted chips and
 glowing abstract art are the opposite.
 

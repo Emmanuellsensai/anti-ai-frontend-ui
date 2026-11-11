@@ -41,11 +41,11 @@ Three families is the ceiling. Keep the display face to two or three places on t
    normally pick: chunky, condensed, high-contrast serif, soft slab, ultra-light, monoline, humanist with a
    quirk. At least half should look odd next to the text face.
 3. **Build a specimen page in the real browser** (a throwaway HTML file, not a mock-up). Set the real words you
-   will use ("Listen.", the real headline, a real number) at 90 px, then at 20 px, on the real background colour.
+   will use ("Pricing.", the real headline, a real number) at 90 px, then at 20 px, on the real background colour.
    Look at them on a phone-sized frame too.
 4. **Judge in context**: does the shape survive at small sizes, do the figures look right, does the accent colour
    on a full stop still read, does it sit well beside the text face, do the accents and special characters the
-   product needs exist (diacritics for Yoruba, Igbo or Vietnamese are a common failure).
+   product needs exist (diacritics for languages such as Yoruba, Vietnamese or Polish are a common failure).
 5. **Pick one and reject the near-misses.** Write down why, so the next change does not drift back to the default.
 
 ## Moves that make type feel designed
@@ -54,7 +54,7 @@ Three families is the ceiling. Keep the display face to two or three places on t
 - **Weight contrast, in either direction.** Very light (200 to 300) at huge sizes with tight tracking, or a chunky
   display face for names. Not 600 everywhere.
 - **Tracking by size.** About -0.045em from 60 px up, about -0.02em for subheads, 0 for body, +0.06em for small caps.
-- **A wordmark per section.** A short name ("Listen.", "Voices.") in the display face, the full stop in the brand
+- **A wordmark per section.** A short name ("Work.", "Pricing.") in the display face, the full stop in the brand
   accent. It orients the reader and carries the voice.
 - **A giant, very light product name in the footer**, clipped, at low opacity, over a dark photograph.
 - **One designed card.** A single card set in a bold geometric face with a flat highlighter behind the key sentence

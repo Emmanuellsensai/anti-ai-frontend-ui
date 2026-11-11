@@ -178,7 +178,7 @@ at every width. Hide it on phones.
 
 ## Section wordmarks
 
-A chunky display face used once per section, as a name ("Listen.", "Voices.", "Ears.", "Results."), with the full stop in
+A chunky display face used once per section, as a name ("Work.", "Pricing.", "Results."), with the full stop in
 the brand accent, set at 11vw or so. Check specimens in the real browser before choosing (a throwaway HTML page with the
 candidates at 90 px). Keep one display face, one geometric face for a single designed card, and one text face. Load the
 extra faces with `preload: false`: they are used below the fold and must not compete with the hero.
