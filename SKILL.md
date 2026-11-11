@@ -57,7 +57,7 @@ Write a section table: purpose, headline, the one real artifact it shows (photo,
 - Build the layout with real content from the start. Never ship placeholder text, even temporarily.
 
 ### Phase 4: Imagery and icons
-Follow `references/imagery-and-icons.md`. Licensed photography with credits. Real app-style icons and the brand mark, not thin line icons in tinted chips. Give every content image real alt text and every decorative one an empty alt.
+Follow `references/imagery-and-icons.md`. Licensed photography, credited in a credits file (not in the footer unless the licence requires it). Real app-style icons and the brand mark, not thin line icons in tinted chips. Give every content image real alt text and every decorative one an empty alt.
 
 ### Phase 5: Copy pass
 Follow `references/copywriting.md`. Read every heading aloud. If it sounds like a poster, rewrite it as a sentence a colleague would say.
@@ -110,7 +110,7 @@ so the next build does not repeat them.
 - **Results:** a plain table on a dark band, large numerals, differences in words, the method in one small line, the unflattering rows left in.
 - **Slideshow:** photo, a prompt box overlapping its bottom edge, a tag that changes with the slide, dots where the active one stretches. Pauses for a mouse, never for a tap; pauses while its audio plays; swipeable; keyboard arrows.
 - **FAQ:** native `details` elements, plain answers, real numbers.
-- **Footer:** columns, one real contact, image credits.
+- **Footer:** columns, one real contact. Photo credits live in the credits file, not the footer.
 
 ## Reporting back
 

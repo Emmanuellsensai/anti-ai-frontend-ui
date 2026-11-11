@@ -183,6 +183,29 @@ the brand accent, set at 11vw or so. Check specimens in the real browser before 
 candidates at 90 px). Keep one display face, one geometric face for a single designed card, and one text face. Load the
 extra faces with `preload: false`: they are used below the fold and must not compete with the hero.
 
+A wordmark in a narrow grid column wraps its full stop onto a line of its own, or spills into the next column (behind
+a photo). Both were caught by the product owner, not by DOM checks. Never let it wrap; shrink it to its column:
+
+```css
+*:has(> .word) { container-type: inline-size; }          /* the column becomes the measuring stick */
+.word { white-space: nowrap; font-size: min(clamp(54px, 11vw, 170px), calc(100cqi / var(--wm, 4.4))); }
+```
+
+`--wm` is the word's width in em including the full stop (measure it once in the browser with a hidden
+`white-space: nowrap` clone, then set it inline per word: `style={{ "--wm": 3.7 }}`). Sweep 320 to 1440 px and check
+that the full stop's top is on the first line and its right edge is inside the column.
+
+## Phone mockups
+
+- Use a real device render with a transparent background (the frame, island, side buttons and screen are the
+  image). Show it as is: no white box, border, rounded clip or `overflow: hidden` around it. A device frame inside a
+  rounded white card gets its corners cut and looks pasted on; this was the first thing a product owner noticed.
+- Never draw a fake phone from a rounded rectangle and a notch.
+- One phone that changes with a list of options (scenarios, languages) beats four phones in a row: it is quieter,
+  and the switch is the interaction. On phones put the device under the list, at about 200 px, so tapping an option
+  does not change something off screen.
+- Screens show example data and say so in the alt text ("Example data").
+
 ## A footer with a giant, very light wordmark
 
 A dark photograph under a flat shade, the links in a quiet column, then the product name at about 15vw in weight 200,

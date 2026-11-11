@@ -27,8 +27,10 @@ glowing abstract art are the opposite.
    button the user's click or yours activates), then copy the file from the Downloads folder into the project.
    Browsers block several automatic downloads in a row; use a real click per file.
 6. Resize to the largest size you need (about 1400 to 1800 px wide), JPEG or WebP, quality about 75.
-7. Write `public/images/CREDITS.md` with the table from step 3 and the licence wording. Put a one-line credit in
-   the footer.
+7. Write `public/images/CREDITS.md` (or `docs/IMAGE_CREDITS.md`) with the table from step 3 and the licence wording.
+   Do not list photographers' names in the footer: Unsplash and Pexels do not require a visible credit, a row of
+   names reads as clutter, and product owners have asked for it to be removed. Keep the full record in the credits
+   file. Only show a credit on the page when the licence requires it (some CC BY images do).
 8. Photos that show identifiable people: the library licence does not always cover a person's likeness in every
    use. Note that in the credits file and get a model release before using them in paid advertising.
 

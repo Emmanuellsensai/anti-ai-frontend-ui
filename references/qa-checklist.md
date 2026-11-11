@@ -37,6 +37,10 @@ left from before). `grep` every selector you change across the whole stylesheet.
 
 ## 1b. The small-phone sweep (do not stop at 390)
 
+**Look at screenshots, not only the DOM.** An overflow script passes while a heading sits behind a photo, a full stop
+drops to its own line, or a phone frame is clipped by its card. Screenshot every section at 1440 and 375 at least and
+look at each one. If the browser cannot take screenshots, say so and do not report the page as checked.
+
 A page that passes at one width with a mouse can still break on a real phone. A shipped page once showed
 "FEMALEMALE" on a phone because it was checked at 390 px with mouse-sized buttons. Always do this sweep:
 

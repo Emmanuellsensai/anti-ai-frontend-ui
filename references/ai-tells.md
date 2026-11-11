@@ -104,6 +104,15 @@ sizes enlarge the buttons. *Fix:* label and control in the same grid column; tes
 **28. Checked at one width.** A page tested only at 390 px with a mouse. *Fix:* sweep 320 to 430 px plus 600 and 820,
 force touch sizes, run the overflow audit, then ask for a check on a real phone.
 
+## Learned from product-owner reviews
+
+- **Screenshots of phones boxed in white cards.** The frame is cut at the corners and floats on a white slab. Show a
+  transparent device render with no box (see `patterns.md`, Phone mockups).
+- **A landing page that tries to say everything.** Ten sections of features, endpoints, stacks and timelines bury
+  the one message. Say one thing; move the detail to a linked page.
+- **A word or heading overlapped by an image** because a big display word was set wider than its grid column.
+- **Stale claims copied from the old site** ("coming soon" for features that shipped). Looks careless, and is wrong.
+
 ## A last check
 
 Squint at a screenshot. If you could swap the logo and the copy and it would fit any other product, it still
