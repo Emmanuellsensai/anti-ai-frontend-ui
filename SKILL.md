@@ -18,7 +18,7 @@ The cure is not a style. It is four habits:
 
 1. **Fidelity.** Use the product's real brand tokens, exactly.
 2. **Study.** Look at a real reference in a real browser and measure it. Copy structure and rhythm, never words or artwork.
-3. **Specificity.** Put real things on the page: real numbers, real clips and screenshots, real photos, real icons.
+3. **Specificity.** Put real things on the page: real numbers, real screenshots and media, real photos, real icons.
 4. **Restraint.** Fewer effects, fewer radii, fewer colours, fewer words. Every element earns its place by carrying information.
 
 ## Non-negotiables
@@ -84,7 +84,7 @@ file and add it here, so the skill grows with every product.
 | Kind | Read |
 |---|---|
 | Landing pages and marketing sites | the Section recipes below and `references/patterns.md` |
-| Signed-in apps: dashboards, admin areas, developer consoles, support desks, embeddable widgets | `references/apps-and-dashboards.md` |
+| Signed-in apps: dashboards, admin areas, developer consoles, queues and inboxes, editors, analytics, embeddable widgets | `references/apps-and-dashboards.md` |
 | Every other route (sign-in, settings, docs, pricing, legal, 404 and error pages) | the Non-negotiables, `references/ai-tells.md`, `references/copywriting.md` and `references/qa-checklist.md`; app routes also follow `references/apps-and-dashboards.md` |
 
 After every project, also record the owner's corrections (what they rejected and why) in the matching reference,
@@ -131,4 +131,4 @@ State facts: what was built, what was measured, what is still unverified. No sup
 - `references/qa-checklist.md`: responsive sweep, touch, accessibility, Lighthouse and release checks.
 - `references/stacks.md`: how to detect or ask for the stack, and how each pattern translates to plain JS, React, Vue, Svelte, Angular, Astro and server templates.
 - `references/type-and-style.md`: how to find distinctive type and product-specific details without copying a reference.
-- `references/apps-and-dashboards.md`: signed-in apps, dashboards, developer consoles, support desks and widgets.
+- `references/apps-and-dashboards.md`: signed-in apps, dashboards, developer consoles, queues and inboxes, and widgets.

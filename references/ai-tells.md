@@ -6,7 +6,7 @@ the whole list.
 ## Decoration
 
 **1. The glowing-dot announcement pill.** A white pill above the headline with a coloured dot and a ring around
-the dot: "● 10 voices across 5 languages". It is on thousands of generated landing pages. *Fix:* delete it. If you
+the dot: "● New: 40 templates across 6 categories". It is on thousands of generated landing pages. *Fix:* delete it. If you
 need a line above the headline use a small-caps eyebrow in plain text. Use a badge only when it is a real
 third-party recognition you can name.
 

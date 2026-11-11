@@ -2,7 +2,7 @@
 
 Landing pages persuade; apps get work done. The same four habits apply (fidelity, study, specificity, restraint),
 but an app is judged on speed of use, not first impression. Read this for any signed-in product: dashboards,
-admin areas, developer consoles, support desks and embeddable widgets.
+admin areas, developer consoles, queues and inboxes, editors, analytics and embeddable widgets.
 
 ## 1. Rules that change from a landing page
 
@@ -41,10 +41,10 @@ admin areas, developer consoles, support desks and embeddable widgets.
 
 | State | Do |
 |---|---|
-| Empty | Say what will appear here and give the one action that fills it ("No calls yet. Start your first job.") |
+| Empty | Say what will appear here and give the one action that fills it ("No invoices yet. Create your first one.") |
 | Loading | Keep the layout; show the page header at once; a quiet skeleton only for the region that is loading |
 | Error | Say what failed in plain words, keep the user's input, offer retry |
-| No permission or locked | Show the page, lock the action, say why and how to unlock ("Verify your business to start live calls") |
+| No permission or locked | Show the page, lock the action, say why and how to unlock ("Verify your email to publish your site") |
 | Preview / not connected | If a backend is not live yet, the page works on an honest empty account and a quiet line says "Billing connects soon"; never fake numbers |
 
 ## 5. Forms and actions
@@ -60,19 +60,23 @@ admin areas, developer consoles, support desks and embeddable widgets.
   Test and live keys look different (label and prefix), never only by colour.
 - **Code samples**: curl first, then the main languages, copy button on every block, the user's real key prefix
   filled in, no fake output: show the real response shape.
-- **Playground**: the real product, not a mock. One box, language and voice pickers, play. Shows the exact request
+- **Playground**: the real product, not a mock. One input, the few options that matter, run. Shows the exact request
   it sent, so it doubles as documentation.
 - **Logs**: newest first, status, latency, size; click a row for request and response with secrets masked.
 - **Usage and billing**: the balance, what one unit costs, the last 30 days as a simple bar per day, and the top-up
   button. Prices in the local currency.
 
-## 7. Support desks and embeddable widgets
+## 7. Queues, inboxes and embeddable widgets
 
-- **Queue**: a list sorted by urgency, then waiting time; each row shows reason, customer, waiting time, owner.
-- **Case panel**: summary first (three lines a busy agent can read in five seconds), then suggested next step, then
-  transcript and recording, then history. Actions at the top: call back, resolve, reassign.
+Any screen where people work through a list all day: tickets, orders to fulfil, applications to review, content to
+moderate, leads to follow up.
+
+- **Queue**: a list sorted by urgency, then waiting time; each row shows the reason, who it is for, how long it has
+  waited and who owns it.
+- **Item panel**: summary first (three lines a busy person can read in five seconds), then the suggested next step,
+  then the full record (messages, files, history). The main actions at the top: reply, resolve, reassign.
 - **Timers**: show time left against the target, turning to the brand accent when close, the error colour when late.
-- **Keyboard**: j/k to move, Enter to open, e to resolve, ? to show shortcuts. Agents live in the queue all day.
+- **Keyboard**: j/k to move, Enter to open, e to resolve, ? to show shortcuts. People who work a queue live in it.
 - **Widget inside someone else's app**: one script tag; render inside a shadow root or an iframe so the host's CSS
   cannot break it and ours cannot leak; a small launcher with a count; opens a side panel; respects the host's
   page (no full-screen takeover, no sound without consent); works without our cookies (token from the host).

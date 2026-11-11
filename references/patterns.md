@@ -27,7 +27,7 @@ Header block, hairline, body, hairline, footer controls. Square-on. No rotation,
 .x-card-sec { padding:20px 26px; border-top:1px solid var(--line); }
 ```
 
-Fill the sections with real content: a player that plays a real clip, a real list, real controls (selected state
+Fill the sections with real content: a working control (a player, a search box, a filter), a real list, real controls (selected state
 dark, others white with a hairline), a composer box (2 px dark border, a plus, a microphone, a round send button).
 Position hero cards absolutely on desktop with fixed offsets so they overlap on purpose; make them a single
 column (max about 520 px) below about 1020 px.
@@ -195,13 +195,13 @@ a photo). Both were caught by the product owner, not by DOM checks. Never let it
 `white-space: nowrap` clone, then set it inline per word: `style={{ "--wm": 3.7 }}`). Sweep 320 to 1440 px and check
 that the full stop's top is on the first line and its right edge is inside the column.
 
-## Phone mockups
+## Device mockups (phone, tablet, laptop)
 
 - Use a real device render with a transparent background (the frame, island, side buttons and screen are the
   image). Show it as is: no white box, border, rounded clip or `overflow: hidden` around it. A device frame inside a
   rounded white card gets its corners cut and looks pasted on; this was the first thing a product owner noticed.
 - Never draw a fake phone from a rounded rectangle and a notch.
-- One phone that changes with a list of options (scenarios, languages) beats four phones in a row: it is quieter,
+- One device that changes with a list of options (features, plans, steps) beats four phones in a row: it is quieter,
   and the switch is the interaction. On phones put the device under the list, at about 200 px, so tapping an option
   does not change something off screen.
 - Screens show example data and say so in the alt text ("Example data").

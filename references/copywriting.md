@@ -6,7 +6,7 @@ on the team would explain the product to a colleague: what it is, what it does, 
 ## Rules
 
 1. **State what it is.** The H1 says what the product is or does, in the words a customer would use.
-2. **Facts over adjectives.** "Within a point of X in four of five languages" beats "best-in-class accuracy".
+2. **Facts over adjectives.** "Loads in 0.8 s on a mid-range phone" beats "blazing fast".
 3. **Numbers exactly as measured,** with the method in one small line and the unflattering numbers left in.
 4. **One idea per sentence.** Short sentences are fine; slogans are not.
 5. **No second-person hype.** Do not tell the reader how they will feel.
@@ -18,8 +18,8 @@ on the team would explain the product to a colleague: what it is, what it does, 
 
 ## One clear message
 
-A landing page says one thing, in the hero, in a sentence a customer would repeat ("We call your customers so
-your team doesn't have to."). Every section after it supports that sentence: how it works, what it does, the hand-off,
+A landing page says one thing, in the hero, in a sentence a customer would repeat ("Send an invoice in under a minute.
+We chase late payers for you."). Every section after it supports that sentence: how it works, what it does, what it costs,
 proof, how to start, questions. Integration details, API lists, stacks and long timelines go on a linked page. If a
 redesign brief says "keep all the information", keep it reachable, not all on the home page; ask if unsure.
 
@@ -47,21 +47,21 @@ its own responses) instead of writing sample copy.
 
 | Before (reads generated) | After (plain) |
 |---|---|
-| Built in the city, for the networks people use. | A small team in the city. |
-| Ears that listen to the line you actually have. | Speech recognition tested on phone calls. |
+| Built in the city, for the people who live in it. | A small team in the city. |
+| Your money, finally working as hard as you do. | A savings account that pays 6% a year. |
 | Working today. Growing every week. | What works now, and what is next. |
-| Natural voices and accurate speech recognition. Built for the phone line, not just the lab. | The product speaks and understands five languages. We test it on phone-quality audio. |
+| Beautiful invoices, effortlessly. Built for the way you work. | Send an invoice in under a minute. We chase late payers for you. |
 | Within a point of the best, with no meter running. | How it compares with Competitor X. |
-| Hear it for yourself. | Try it. |
-| Trained on what calls actually sound like. | How we train it. |
-| Speak while thinking. | Streaming speech. |
-| Most voice AI never heard a local phone call. | Popular speech models do badly on local languages over the phone. |
-| Voices and ears, built for the phone line. | One model that speaks. One that listens. |
+| See the magic for yourself. | Try it. |
+| Crafted with obsessive attention to detail. | How we build it. |
+| Ship faster. Sleep better. | Deploys roll back on their own when a check fails. |
+| Reimagining how teams collaborate. | Shared docs with comments and version history. |
+| Your health, reinvented for the modern age. | Book a doctor by video today, from $20. |
 
 ## Section copy checklist
 
 - Eyebrow: two or three words, plain ("How it works", "Results", "Who we are").
 - Headline: a statement or a label. Under about 12 words.
 - Lead paragraph: two sentences at most. The second carries a fact.
-- Captions and notes: state method and caveats ("40 held-out clips per language, simulated phone line").
+- Captions and notes: state method and caveats ("tested on 200 real orders, on a mid-range Android phone").
 - FAQ: real questions people ask, answered in plain sentences with real numbers and a contact address if the answer is "not yet".
