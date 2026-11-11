@@ -71,6 +71,20 @@ Design behaviour for a thumb as well as a mouse: a menu when the nav no longer f
 ### Phase 8: QA and report
 Run the checklist. Test in real viewports (the iframe method works in any browser), run Lighthouse on the production build and read it honestly. Then report plainly: what changed, what was checked, what was not (for example a real phone).
 
+## Application types
+
+The rules above hold for every kind of interface. Each kind also has its own reference. Read the one that matches
+the job before Phase 2, and when you build a kind that is not listed, write what you learned into a new section or
+file and add it here, so the skill grows with every product.
+
+| Kind | Read |
+|---|---|
+| Landing pages and marketing sites | the Section recipes below and `references/patterns.md` |
+| Signed-in apps: dashboards, admin areas, developer consoles, support desks, embeddable widgets | `references/apps-and-dashboards.md` |
+
+After every project, also record the owner's corrections (what they rejected and why) in the matching reference,
+so the next build does not repeat them.
+
 ## Fast replacements
 
 | The tell | Do this instead |
@@ -112,3 +126,4 @@ State facts: what was built, what was measured, what is still unverified. No sup
 - `references/qa-checklist.md`: responsive sweep, touch, accessibility, Lighthouse and release checks.
 - `references/stacks.md`: how to detect or ask for the stack, and how each pattern translates to plain JS, React, Vue, Svelte, Angular, Astro and server templates.
 - `references/type-and-style.md`: how to find distinctive type and product-specific details without copying a reference.
+- `references/apps-and-dashboards.md`: signed-in apps, dashboards, developer consoles, support desks and widgets.
