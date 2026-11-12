@@ -89,6 +89,42 @@ moderate, leads to follow up.
 - Lighthouse on the production build of signed-in pages (use a preview session or the preview mode), plus axe.
 - Check numbers in tables line up (tabular figures) and long names and amounts do not break rows at 320 px.
 
+## 8b. Type for data-dense screens
+
+One scale for every app screen of a product (consoles of the same company must match). A good default, in the brand's
+text face:
+
+| Role | Size / line | Weight |
+|---|---|---|
+| Page title | 28/34 (24/32 if dense) | the brand's headline weight |
+| Section title | 18/26 | 600 |
+| Panel or card title | 16/24 | 600 |
+| Body and prose (max about 70 characters a line) | 15/24 or 14/20 | 400 |
+| Table cell | 14/20 (13/20 if dense) | 400 |
+| Table header | 12/16, sentence case, muted (not tiny uppercase with wide tracking) | 600 |
+| Labels and buttons | 14/20 | 500 and 600 |
+| Help, meta, captions | 13/18, never below 12 | 400 |
+| Big numbers | 32/38 | 600 |
+
+- Muted text must pass 4.5:1 on every background it sits on, including tinted panels; check the darkest tint.
+- Numbers right-aligned. Ask for `font-variant-numeric: tabular-nums`, but test it: some web fonts (and Google Fonts
+  subsets) have no tabular figures, and then only alignment keeps columns tidy.
+- Variable fonts with an optical-size axis: load the axis (for example `axes: ["opsz"]` in next/font) and keep
+  `font-optical-sizing: auto`.
+- Rows about 44 px (cell padding 12 px 16 px); a side panel about 400 px wide.
+
+## 8c. Interaction and state behaviour
+
+- Filters, tabs and the open panel or case live in the URL, so refresh, Back and a shared link keep them.
+- A loading state never shows the empty state first ("Nothing is waiting" flashing before the data arrives is a bug).
+  Delay spinners about 200 ms so fast loads do not flicker.
+- After an action, say what happened and link to the result ("Finished: passed to an agent. Open the call").
+- New items in a live queue are announced to screen readers (`aria-live="polite"`).
+- Sticky headers, bottom bars and widget launchers never cover the focused element.
+- Stress-test every list with very long names and big amounts at 320 px.
+- One primary action per view: the empty state does not repeat the header's button.
+- Never show internal IDs to the people the product talks to (a voice or chat agent reading "esc_sbx_rs" aloud).
+
 ## 9. Keep this file growing
 
 After building a new kind of app (marketplace, editor, analytics, mobile app, game UI), add a section here or a
